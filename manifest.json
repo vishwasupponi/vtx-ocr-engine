@@ -1,0 +1,11 @@
+{
+  "id": "ocr_engine",
+  "name": "OCR Local Neural Engine",
+  "version": "1.0.0",
+  "author": "Vishwas Upponi",
+  "category": "UTILITIES",
+  "description": "Offline neural vision engine for optical text recognition from scanned bank statements.",
+  "has_ui": false,
+  "entrypoint": "entrypoint.py",
+  "entry_class": ""
+}
