@@ -1,0 +1,15 @@
+{
+  "id": "ocr_engine",
+  "name": "OCR Local Neural Engine",
+  "version": "1.0.0",
+  "author": "Vishwas Upponi",
+  "author_url": "https://vishwasupponi.blogspot.com/links",
+  "category": "Core Engines",
+  "icon": "🧠",
+  "repo": "vtx-ocr-engine",
+  "entrypoint": "entrypoint.py",
+  "entry_class": "OCREngineModule",
+  "page_key": "ocr_engine",
+  "description": "Offline neural OCR engine module for Vertex, designed to parse scanned PDF bank statements with local deep learning models.",
+  "dependencies": ["torch>=2.0.0", "pytesseract>=0.3.10", "Pillow>=10.0.0"]
+}
